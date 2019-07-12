@@ -1,90 +1,101 @@
 *{
     margin: 0;
     padding: 0;
-
 }
-
-
-
+.color{
+    background-color: #f2f6f5;
+    text-align: center;
+    padding: 3%;
+    font-size: 20px;
+}
 
 .text{
-    font-family: 'Source Sans Pro', sans-serif;
-    padding: 10%;
-    color: white;
-    font-size: 20px;
-    align-items: center;
-    
+    display: inline-block;
+    width: 80%;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+
+.text img, .text h1, .text p, ul{
+    float: left;
+    width: 18%;
+    padding: 1%;
+    margin: 1%;
+    text-align: center;
+}
+.text h1{
+    width: 28%;
+    padding-top: 7%;
 }
 .text img{
-    flex: 1;
-    border-radius: 80px;
-    border: solid 1px black;
+    border: 1px solid black;
+    border-radius: 30px;
+    padding: 0;
+}
+.color p{
+    padding-top: 7%;
+}
+ul{
+    padding-top: 7%;
+    text-align: left;
+}
+@media (max-width: 900px){
+    .text img, .text h1, .text p, ul{
+        float: none;
+        width: 100%;
+        margin: 1% 4% 1%;
+    }
+    .text img{
+        width: 50%;
+    }
+    ul{
+        margin-left: 20%;
+    }
 }
 
-.text h1{
-    flex: 2;
-    width: 25%;
+
+
+
+.list{
     text-align: center;
-}
-.text p{
-    flex: 1;
-    width: 25%;
-    text-align: center;
-}
-
-.text ul{
-    flex: 1;
-    list-style-type: none;
-    text-align: center;
-}
-
-.color{
-    background-color: #50b6bb;
-   
-}
-
-
-@media(min-width: 900px){
-   .list{
-    display: flex;
-   }
-   .text{
-       display: flex;
-   }
-}
-
-
-
-.list p{
-    font-weight: bold; 
-
-    color: yellow;
-
 }
 
 .list1{
-    background-color: #f96d15 ;
-    padding: 30px;
-    color: white;
-    flex: 1; 
-    font-size: 1.6em;
-    flex-basis: auto;
-    text-align: center;
-    list-style-type: none;
-    
+    float: left;
+    width: 48%;
+    padding: 1%;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    list-style: none;
+    background-color: #28c3d4;
 }
 
 .list2{
-    background-color: #eb5f5d;
-    color: white;
-    font-size: 1.6em;
-    padding: 30px;
-    flex: 1; 
-    flex-basis: auto;
-    text-align: center;
-    list-style-type: none;
+    float: left;
+    width: 48%;
+    padding: 1%;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    list-style: none;
+    background-color: #248ea9;
+}
+.list p{
+    font-size: 25px;
+    font-family: 'PT Serif', serif;
+    padding: 2%;
+    color: #fff;
+}
+ol li{
+    padding: 1%;
+    color: #fff;
 }
 
-.list li{
-    margin: 10px;
+.list1 p{
+    background-color: #248ea9;
+    margin: 1% 30%;
+}
+
+.list2 p{
+    background-color: #28c3d4;
+    margin: 1% 30%;
 }
