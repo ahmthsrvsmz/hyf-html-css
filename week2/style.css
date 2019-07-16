@@ -8,10 +8,12 @@
 
 
 body{
-    background-color: #f9f3ec;
+    background-image: url(https://racestarpublications.com/wp-content/uploads/2017/04/bluemetal1.jpg);
     position: relative;
     animation-name: all;
     animation-duration: 2s;
+    background-size: 100%;
+    background-position: fixed;
 }
 @keyframes all{
     0% { left: -10000px;}
@@ -29,6 +31,7 @@ h1{
 h2{
     padding: 8% 3% 1%;
     font-size: 45px;
+    color: #248ea9;
 }
 
 h3{
